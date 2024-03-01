@@ -1,109 +1,232 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   
-  }
-  
-  .section1,
-  header {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-color: #212529;
-    position: fixed;
-  }
-  
-  .section1 {
-    position: sticky;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section1,
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+  position: fixed;
+}
+
+.section1 {
+  position: sticky;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  width: 66%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo h2 {
+  line-height: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 100px;
+  padding: 5px 10px;
+}
+
+nav a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.section2 {
+  height: 750px;
+  background-size: cover;
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+}
+
+.page1 {
+  text-align: center;
+  padding: 200px;
+  font-size: 40px;
+  margin: auto;
+}
+
+.page1,
+h5,
+h2,
+h4 {
+  color: white;
+}
+.page1 p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+}
+
+.page1 h2 {
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffc800;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.section3 {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.texts1 {
+  text-align: center;
+}
+
+.texts1 h3 {
+  color: #333;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.texts1 p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.icons div {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.fa-store {
+  font-size: 36px;
+  color: #3498db;
+  margin-bottom: 15px;
+}
+
+.icons,
+h4 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.icons,
+p {
+  color: #6c757d ;
+}
+.container1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section3{
+width: 100%;
+height: 100%;
+}
+
+body, h1, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+.section4 {
+  background-color: #ece9e9; 
+  font-family: "Arial", sans-serif;
+  padding: 50px 0; 
+}
+
+.container2 {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.texts2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.texts2 h2 {
+  font-size: 2em; 
+  color: #333; 
+  margin: 10px;
+}
+
+.texts2 p {
+  font-style: italic;
+  font-size: 1em; 
+  color: #666 !important; 
+}
 
 
-  .logo {
-    font-family: "Montserrat", sans-serif;
-    width: 30%;
-    height: 100%;
-    text-align: center;
-  }
-  
-
-  nav {
-    font-family: "Montserrat", sans-serif;
-    width: 66%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-   
-  }
-  
-  .logo h2 {
-    line-height: 100px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  li {
-    list-style: none;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 100px;
-    padding: 5px 10px;
-  }
-  
-  nav a {
-    cursor: pointer;
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .section2 {
-    height: 750px;
-    background-size: cover;
-    background-position: center 60%;
-    background-repeat: no-repeat;
-    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
-  }
+.main1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
 
 
-  .page1 {
-    text-align: center;
-    padding: 200px;
-    font-size: 40px;
-    margin: auto;
-    
-  }
+.main1 div {
+  width: calc(33.33% - 20px); 
+  margin-bottom: 20px;
+}
 
-  .page1 ,h5, h2, h4{
-    color: white;
-  
-  }
-  .page1 p{
-    margin-bottom: 10px;
-    font-style: italic;
-    font-size: 35px;
-    font-family: "Roboto Slab", serif;
-  }
+.main1 img {
+  width: 100%; 
+  border-radius: 8px; 
+}
 
-  .page1 h2{
-    margin-bottom: 40px;
-    font-size: 70px;
-    font-family: "Montserrat", sans-serif;
-  }
+.main1 h6 {
+  font-size: 25px; 
+  text-align: end;
+  color: #333; 
+  margin-top: 10px;
+}
 
-  .button {
-    font-family: "Montserrat", sans-serif;
-    background-color: #ffc800;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    cursor: pointer;
-  }
+.main1 p {
+  font-size: 15px;
+  font-style: italic; 
+  color: #666; 
+}
+
